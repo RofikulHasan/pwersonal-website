@@ -4,15 +4,16 @@ body{
 #name-color{
     color: hotpink;
 }
-#bg{
+.bg{
     background-image: url(1.png);
     
     background-repeat: no-repeat;
     background-position: center;
     
 }
-section{
-    height: 560px;
+section {
+    height: 600px;
+    margin-top: 10px;
 }
 
 .half{
@@ -42,4 +43,54 @@ section{
 }
 p{
     color: lightgrey;
+}
+
+.middle{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+}
+
+#work{
+    font-weight: bold;
+    text-align: center;
+}
+
+.sample{
+    float: left;
+    width: 30%;
+    margin-left: 20px;
+    padding-left: 2px;
+}
+.last{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+}
+
+.about{
+    text-align: center;
+}
+#color{
+    color: white;
+}
+#white{
+    color: white;
+}
+.box{
+    text-align: center;
+    background-image: linear-gradient(#ff33cc, #cc0099 );
+    margin-left: 500px;
+    margin-right: 500px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.footer{
+    background-image: url(footer-bg.png);
+    height: 500px;
+    background-position: left;
+    
 }
